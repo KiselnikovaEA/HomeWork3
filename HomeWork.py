@@ -2,12 +2,11 @@
 
 # def sum_of_odd_elements(some_array):
 #     sum = 0
-#     for i in range(0, len(some_array)):
-#         if(i % 2 == 1):
-#             sum = sum + some_array[i]
+#     for i in range(1, len(some_array), 2):
+#         sum = sum + some_array[i]
 #     return sum
 
-# some_array = [2, 3, 5, 9, 3]
+# some_array = [2, 3, 5, 9, 3, 7, 12, 6]
 # print(sum_of_odd_elements(some_array))
 
 
@@ -51,14 +50,16 @@
 # some_array = []
 # i = 0
 # while num != 1:
-#     some_array[i] = num % 2
+#     some_array.append(num % 2)
 #     num = int(num / 2)
 #     i = i + 1
 
 # some_array.append(1)
 # some_array.reverse()
-# print(some_array)
+# print(*some_array, sep='')
 
 
-# Задача 5: Программа будет преобразовывать десятичное число в двоичное
+# Задача 5: Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
+
+
 
