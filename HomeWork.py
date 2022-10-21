@@ -46,20 +46,35 @@
 
 # Задача 4: Программа будет преобразовывать десятичное число в двоичное
 
-# num = int(input('Введите число: '))
-# some_array = []
-# i = 0
-# while num != 1:
-#     some_array.append(num % 2)
-#     num = int(num / 2)
-#     i = i + 1
+# def int_to_binary(num):
 
-# some_array.append(1)
-# some_array.reverse()
-# print(*some_array, sep='')
+#     some_array = []
+#     i = 0
+#     while num != 1:
+#         some_array.append(num % 2)
+#         num = int(num / 2)
+#         i = i + 1
+
+#     some_array.append(1)
+#     some_array.reverse()
+#     print(*some_array, sep='')
+
+# num = int(input('Введите число: '))
+# int_to_binary(num)
 
 
 # Задача 5: Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 
+# def negafib(k):
+#     fib_array = []
+#     fib_array.append(0)
+#     fib_array.append(1)
+#     for i in range(1, k):
+#         fib_array.append(fib_array[i] + fib_array[i - 1])
+#     for _ in range(1, k + 1):
+#         fib_array.insert(0, fib_array[1]-fib_array[0])
+#     return fib_array
 
 
+# k = int(input('Введите число k: '))
+# print(*negafib(k), sep=' ')
